@@ -6,10 +6,10 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "lodash": "4.17.15",  // Downgrade lodash to a known vulnerable version
+    "lodash": "4.17.15",
     "express": "^4.17.1"
   },
   "resolutions": {
-    "**/lodash": "^4.17.21"  // Keep this resolution to test later
+    "**/lodash": "^4.17.21"
   }
 }
